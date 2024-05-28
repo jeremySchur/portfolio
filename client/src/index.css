@@ -15,19 +15,19 @@
   }
 
   .profile-picture {
-    @apply rounded-full object-cover mr-4 hidden xl:block;
+    @apply rounded-full object-cover mr-4 hidden xl:block text-center;
     width: 25rem;
     height: 25rem;
   }
 
   .work-logo {
-    @apply rounded-full object-cover mr-4;
+    @apply rounded-full object-cover mr-4 text-center;
     width: 10rem;
     height: 10rem;
   }
 
   .cu-logo {
-    @apply object-cover ml-5 hidden xl:block;
+    @apply object-cover ml-5 hidden xl:block text-center;
     height: 25rem;
   }
 }
