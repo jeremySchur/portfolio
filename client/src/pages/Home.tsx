@@ -14,7 +14,7 @@ export default function Home(props: HomeProps) {
                 <img src="./images/profile_picture.jpg" alt="Profile Picture" className="profile-picture"/>
                 <div className="bg-white p-4 rounded-xl max-w-4xl">
                     <h1 className="text-4xl font-bold">Hi, I'm Jeremy Schur!</h1>
-                    <p className="mt-3 text-lg">A dedicated computer science student with over four years of experience in various domains, including frontend and backend development, database management, data science, artificial intelligence, and game development.</p>
+                    <p className="mt-3 text-xl">A dedicated computer science student with over four years of experience in various domains, including frontend and backend development, database management, data science, artificial intelligence, and game development.</p>
                     <a href="./files/Jeremy_Resume.pdf" tabIndex={-1} download>
                         <button className="download-btn">Download Resume</button>
                     </a>
