@@ -9,7 +9,7 @@ interface NavbarProps {
 export default function Navbar(props: NavbarProps) {
 
     return (
-            <nav className="flex items-center justify-center w-fit p-2 rounded-3xl bg-gray-300 font-mont">
+            <nav className="flex items-center justify-center w-fit p-2 rounded-3xl bg-gray-300 font-mont shadow-lg">
                 <Link to="/" tabIndex={-1}>
                     <button 
                         className={props.currentPage === "Home" ? "navbar-btn mr-1 ring-2 ring-black" : "navbar-btn mr-1"}

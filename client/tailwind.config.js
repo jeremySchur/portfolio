@@ -9,7 +9,10 @@ export default {
       fontFamily: {
         mont: ['Montserrat', 'sans-serif'],
       },
-    },
+      fontWeight: {
+        medium: 500,
+      },
+   },
   },
   plugins: [],
 }
