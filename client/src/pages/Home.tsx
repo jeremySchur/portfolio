@@ -28,16 +28,6 @@ export default function Home(props: HomeProps) {
             <br/>
             <div className="bg-white w-5/6 p-4 rounded-xl shadow-lg">
                 <h1 className="text-4xl font-bold mb-4">Work Experience</h1>
-                <div className="border-2 border-black rounded-xl p-2 mb-4">
-                    <h2 className="text-2xl font-bold">Company Name</h2>
-                    <h3 className="text-lg">Position</h3>
-                    <p>Start date - End date</p>
-                    <ul className="list-disc ml-5">
-                        <li>Task 1</li>
-                        <li>Task 2</li>
-                        <li>Task 3</li>
-                    </ul>
-                </div>
                 <div className="flex items-center border-2 border-black rounded-xl p-2">
                     <img src="./images/temple_beth_el.png" alt="Temple Beth-El Logo" className="work-logo"/>
                     <div>
