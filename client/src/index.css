@@ -25,6 +25,11 @@
     width: 10rem;
     height: 10rem;
   }
+
+  .cu-logo {
+    @apply object-cover ml-5 hidden xl:block;
+    height: 25rem;
+  }
 }
 
 li {
