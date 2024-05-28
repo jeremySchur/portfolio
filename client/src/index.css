@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer components {
   .navbar-btn {
-    @apply bg-white text-black font-bold py-2 px-4;
+    @apply bg-white text-black font-bold py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-600 hover:bg-gray-200;
     border-radius: 2rem;
+  }
+
+  .download-btn {
+    @apply bg-black text-white text-xl p-2 pr-3 pl-3 mt-3 rounded-3xl hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-600
+  }
+
+  .profile-picture {
+    @apply w-72 h-72 rounded-full object-cover mr-4;
   }
 
 }
