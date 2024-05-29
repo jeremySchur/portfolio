@@ -1,4 +1,5 @@
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 interface HomeProps {
     currentPage: string;
@@ -8,9 +9,9 @@ interface HomeProps {
 
 export default function Home(props: HomeProps) {
     return (
-        <div className="h-screen w-screen p-2 flex flex-col items-center bg-gray-200 font-mont font-medium space-y-8 overflow-auto">
+        <div className="h-screen w-screen p-2 flex flex-col items-center bg-gray-200 font-mont font-medium overflow-auto">
             <Navbar currentPage={props.currentPage} togglePage={props.togglePage}/>
-            <div className="flex items-center w-5/6 h-1/2">
+            <div className="flex items-center w-5/6 mt-8">
                 <img src="./images/profile_picture.jpg" alt="Profile Picture" className="profile-picture shadow-lg"/>
                 <div className="bg-white p-4 rounded-xl shadow-lg">
                     <h1 className="text-4xl font-bold">Hi, I'm Jeremy Schur!</h1>
@@ -26,7 +27,7 @@ export default function Home(props: HomeProps) {
             </div>
             <br/>
             <br/>
-            <div className="bg-white w-5/6 p-4 rounded-xl shadow-lg">
+            <div className="bg-white w-5/6 p-4 rounded-xl shadow-lg mt-8 mb-24">
                 <h1 className="text-4xl font-bold mb-4">Work Experience</h1>
                 <div className="flex items-center border-2 border-black rounded-xl p-2">
                     <img src="./images/temple_beth_el.png" alt="Temple Beth-El Logo" className="work-logo"/>
@@ -45,6 +46,7 @@ export default function Home(props: HomeProps) {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
     )
 }
