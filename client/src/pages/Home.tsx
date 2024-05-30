@@ -2,8 +2,8 @@
 
 export default function Home() {
     return (
-        <div className="flex flex-col items-center bg font-mont font-medium overflow-auto">
-            <div className="flex items-center w-5/6 mt-8">
+        <div className="flex flex-col items-center h-screen bg-gray-200 font-mont font-medium overflow-auto">
+            <div className="flex items-center w-5/6 mt-24">
                 <img src="./images/profile_picture.jpg" alt="Profile Picture" className="profile-picture shadow-lg"/>
                 <div className="bg-white p-4 rounded-xl shadow-lg">
                     <h1 className="text-4xl font-bold">Hi, I'm Jeremy Schur!</h1>

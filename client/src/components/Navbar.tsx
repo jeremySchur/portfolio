@@ -5,7 +5,7 @@ export default function Navbar() {
     const [currentPage, setCurrentPage] = useState<string>("Home")
 
     return (
-        <div className="flex items-center justify-center p-2 bg-gray-200">
+        <div className="fixed flex justify-center w-screen mt-2">
             <nav className="w-fit p-2 rounded-3xl bg-gray-300 font-mont shadow-lg">
                 <Link to="/" tabIndex={-1}>
                     <button 
