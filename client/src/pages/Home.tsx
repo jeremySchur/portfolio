@@ -22,6 +22,19 @@ export default function Home() {
             <div className="bg-white w-5/6 p-4 rounded-xl shadow-lg mt-8 mb-24">
                 <h1 className="text-4xl font-bold mb-4">Work Experience</h1>
                 <div className="flex items-center border-2 border-black rounded-xl p-2">
+                    <img src="./images/uber_eats_logo.jpg" alt="Temple Beth-El Logo" className="work-logo"/>
+                    <div>
+                        <h2 className="text-2xl font-bold">Uber Eats</h2>
+                        <h3 className="text-lg mb-1">Delivery Driver</h3>
+                        <p className="mb-1">May 2022 - August 2024 (summers) | Boulder, Colorado</p>
+                        <ul className="list-disc ml-5">
+                            <li>Consistently delivered orders within the estimated time frame, demonstrating strong time management skills.</li>
+                            <li>Effectively communicated with customers, restaurants, and support teams to ensure smooth delivery processes.</li>
+                            <li>Ensured accuracy in order pickups and deliveries, checking items against customer requests.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="flex items-center border-2 border-black rounded-xl p-2 mt-3">
                     <img src="./images/temple_beth_el.png" alt="Temple Beth-El Logo" className="work-logo"/>
                     <div>
                         <h2 className="text-2xl font-bold">Temple Beth-El</h2>
