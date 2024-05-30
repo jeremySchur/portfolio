@@ -1,16 +1,8 @@
-import Navbar from '../components/Navbar';
-import Footer from '../components/Footer';
 
-interface HomeProps {
-    currentPage: string;
-    togglePage: (page: string) => void;
 
-}
-
-export default function Home(props: HomeProps) {
+export default function Home() {
     return (
-        <div className="h-screen w-screen p-2 flex flex-col items-center bg-gray-200 font-mont font-medium overflow-auto">
-            <Navbar currentPage={props.currentPage} togglePage={props.togglePage}/>
+        <div className="flex flex-col items-center bg font-mont font-medium overflow-auto">
             <div className="flex items-center w-5/6 mt-8">
                 <img src="./images/profile_picture.jpg" alt="Profile Picture" className="profile-picture shadow-lg"/>
                 <div className="bg-white p-4 rounded-xl shadow-lg">
@@ -46,7 +38,6 @@ export default function Home(props: HomeProps) {
                     </div>
                 </div>
             </div>
-            <Footer />
         </div>
     )
 }

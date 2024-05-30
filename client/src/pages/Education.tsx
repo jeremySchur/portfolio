@@ -1,18 +1,10 @@
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar"
 
-interface EducationProps {
-    currentPage: string;
-    togglePage: (page: string) => void;
 
-}
-
-export default function Education(props: EducationProps) {
+export default function Education() {
     return (
-        <div className="h-screen w-screen p-2 flex flex-col items-center bg-gray-200 overflow-auto">
-            <Navbar currentPage={props.currentPage} togglePage={props.togglePage}/>
+        <div className="bg flex flex-col items-center overflow-auto">
             <br/>
-            <div className="flex items-center bg-white rounded-xl p-4 mt-10 w-5/6 mb-24">
+            <div className="flex items-center justify-center bg-white rounded-xl p-4 w-5/6 mt-10 mb-24">
                 <div className="font-mont font-medium">
                     <h1 className="text-4xl font-extrabold mb-3">Education</h1>
                     <h2 className="text-2xl font-bold">University of Colorado Boulder</h2>
@@ -29,7 +21,6 @@ export default function Education(props: EducationProps) {
                 </div>
                 <img src="./images/cu_logo.png" alt="CU Boulder Logo" className="cu-logo"/>
             </div>
-            <Footer />
         </div>
     )
 }

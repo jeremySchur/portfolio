@@ -5,6 +5,11 @@
 @tailwind utilities;
 
 @layer components {
+  .bg {
+    @apply bg-gray-200;
+    height: calc(100vh - 72px);
+  }
+
   .navbar-btn {
     @apply bg-white text-black font-bold py-2 px-4 focus:outline-none focus:ring-2 focus:ring-blue-600 hover:bg-gray-200;
     border-radius: 2rem;
@@ -32,7 +37,7 @@
   }
 
   .footer-img {
-    @apply h-10 w-10 rounded-full lg:h-14 lg:w-14 hover:scale-105;
+    @apply h-10 w-10 rounded-full lg:h-14 lg:w-14 hover:scale-105 focus:border-none focus:ring-2 focus:ring-blue-600;
   
   }
 }
@@ -40,3 +45,4 @@
 li {
   @apply mb-1
 }
+
