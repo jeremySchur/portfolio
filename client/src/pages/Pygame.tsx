@@ -2,7 +2,7 @@
 
 export default function Pygame() {
     return (
-        <div className="flex justify-center w-screen h-screen bg-gray-200 overflow-auto">
+        <div className="flex justify-center w-screen h-screen bg-gray-200 overflow-auto font-mont font-medium">
             <div className="flex flex-col w-5/6 my-24 h-fit bg-white rounded-xl p-5">
                 <h1 className="text-4xl font-extrabold mt-2 mb-10">Pygame Project</h1>
                 <div className="flex flex-col lg:flex-row lg:items-center">
@@ -18,7 +18,7 @@ export default function Pygame() {
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:items-center mt-5">
-                    <img src="./images/pygame/pygame_playing.png" alt="Playing game." className="w-full lg:h-80 rounded-lg shadow-lg order-1 lg:2"/>
+                    <img src="./images/pygame/pygame_playing.png" alt="Playing game." className="w-full lg:h-80 rounded-lg shadow-lg order-1 lg:order-2"/>
                     <div className="order-2 lg:order-none lg:flex lg:flex-col lg:mr-10">
                         <h2 className="text-lg lg:text-2xl font-bold my-2">Gameplay Mechanics:</h2>
                         <p className="lg:text-lg">
