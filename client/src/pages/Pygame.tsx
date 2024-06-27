@@ -31,7 +31,7 @@ export default function Pygame() {
                     </div>
                 </div>
                 <div className="flex flex-col lg:flex-row lg:items-center mt-5">
-                    <img src="./images/pygame/pygame_gameover.png" alt="Playing game." className="w-full lg:h-80 rounded-lg shadow-lg"/>
+                    <img src="./images/pygame/pygame_gameover.png" alt="Game over." className="w-full lg:h-80 rounded-lg shadow-lg"/>
                     <div className="lg:flex lg:flex-col lg:ml-10">
                         <h2 className="text-lg lg:text-2xl font-bold my-2">Development and Tools:</h2>
                         <p className="lg:text-lg">
