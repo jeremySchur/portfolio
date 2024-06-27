@@ -6,8 +6,8 @@ export default function Education() {
             <div className="flex items-center justify-center bg-white rounded-xl p-4 w-5/6 h-fit my-24">
                 <div className="font-mont font-medium">
                     <h1 className="text-4xl font-extrabold mb-3">Education</h1>
-                    <h2 className="text-2xl font-bold">University of Colorado Boulder</h2>
-                    <h3 className="text-xl font-bold">Bachelor of Science in Computer Science</h3>
+                    <h2 className="text-xl lg:text-2xl font-bold">University of Colorado Boulder</h2>
+                    <h3 className="text-lg lg:text-xl font-bold">Bachelor of Science in Computer Science</h3>
                     <p className="font-bold mb-3">August 2021 - May 2025 | Boulder, Colorado</p>   
                     <p>
                         I decided to pursue a computer science degree due to my fascination with software engineering 
