@@ -26,11 +26,11 @@ export default function Home() {
                     <div>
                         <h2 className="text-2xl font-bold">Uber Eats</h2>
                         <h3 className="text-lg mb-1">Delivery Driver</h3>
-                        <p className="mb-1">May 2022 - August 2024 (summers) | Boulder, Colorado</p>
+                        <p className="mb-1">May 2022 - August 2024 (Summers) | Boulder, Colorado</p>
                         <ul className="list-disc ml-5">
                             <li>Consistently delivered orders within the estimated time frame, demonstrating strong time management skills.</li>
                             <li>Effectively communicated with customers, restaurants, and support teams to ensure smooth delivery processes.</li>
-                            <li>Ensured accuracy in order pickups and deliveries, checking items against customer requests.</li>
+                            <li>Ensured accuracy in order pickups and deliveries.</li>
                         </ul>
                     </div>
                 </div>
@@ -45,7 +45,22 @@ export default function Home() {
                             <li>Assisted in assessing student progress through observations, grading assignments, and maintaining records.</li>
                             <li>
                                 Helped maintain a positive and orderly classroom environment by implementing classroom rules and routines, 
-                                managing student behavior, and addressing conflicts to ensure a conducive learning atmosphere.
+                                managing student behavior, and addressing conflicts.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="flex items-center border-2 border-black rounded-xl p-2 mt-3">
+                    <img src="./images/abc_kids_expo.png" alt="Temple Beth-El Logo" className="work-logo"/>
+                    <div>
+                        <h2 className="text-2xl font-bold">ABC Kids Expo</h2>
+                        <h3 className="text-lg mb-1">Records Coordinator</h3>
+                        <p className="mb-1">May 2018 - July 2021 (Summers) | San Antonio, Texas</p>
+                        <ul className="list-disc ml-5">
+                            <li>Received and processed booking information from submissions by employees.</li>
+                            <li>Ensured accuracy and consistency of booking data across all platforms and records.</li>
+                            <li>
+                                Communicated effectively with employees to clarify and confirm booking details.
                             </li>
                         </ul>
                     </div>

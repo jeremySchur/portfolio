@@ -2,9 +2,8 @@
 
 export default function Education() {
     return (
-        <div className="flex flex-col items-center h-screen bg-gray-200 overflow-auto">
-            <br/>
-            <div className="flex items-center justify-center bg-white rounded-xl p-4 w-5/6 mt-16 mb-24">
+        <div className="flex justify-center h-screen bg-gray-200 overflow-auto">
+            <div className="flex items-center justify-center bg-white rounded-xl p-4 w-5/6 h-fit my-24">
                 <div className="font-mont font-medium">
                     <h1 className="text-4xl font-extrabold mb-3">Education</h1>
                     <h2 className="text-2xl font-bold">University of Colorado Boulder</h2>

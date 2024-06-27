@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom"
 
 import Home from "./pages/Home"
 import Education from "./pages/Education"
+import Pygame from "./pages/Pygame"
 import Layout from "./Layout"
 
 export default function App() {
@@ -12,6 +13,7 @@ export default function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="/education" element={<Education />} />
+          <Route path="/pygame" element={<Pygame />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Route>
       </Routes>
