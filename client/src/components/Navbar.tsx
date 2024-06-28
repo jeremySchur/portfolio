@@ -47,6 +47,15 @@ export default function Navbar() {
                                 <p className="text-sm">An app that connects you and your friends for easy ridesharing to common ski destinations</p>
                             </button>
                         </Link>
+                        <Link to="/stats360" tabIndex={-1} className="w-full">
+                            <button 
+                                className="w-full h-full p-4 bg-gray-100 rounded-lg hover:bg-gray-200"
+                                onClick={() => {setCurrentPage("Projects"); setIsDropdownOpen(false)}}
+                            >
+                                <h3 className="font-medium">Stats360</h3>
+                                <p className="text-sm">An app where users can search for different games and view their detailed stats.</p>
+                            </button>
+                        </Link>
                         <Link to="/pygame" tabIndex={-1} className="w-full">
                             <button 
                                 className="w-full h-full p-4 bg-gray-100 rounded-lg hover:bg-gray-200"
