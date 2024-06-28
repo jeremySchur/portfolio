@@ -18,7 +18,7 @@ export default function Stats360() {
                     </div>
                 </div>
                 <div className="flex flex-col xl:flex-row xl:items-center mt-5">
-                    <img src="./images/stats360/stats360_search.png" alt="Playing game." className="w-full xl:h-80 rounded-lg shadow-lg order-1 xl:order-2"/>
+                    <img src="./images/stats360/stats360_results.png" alt="Playing game." className="w-full xl:h-80 rounded-lg shadow-lg order-1 xl:order-2"/>
                     <div className="order-2 xl:order-none xl:flex xl:flex-col xl:mr-10">
                         <h2 className="text-lg lg:text-2xl font-bold my-2">Core Features:</h2>
                         <p className="lg:text-lg">
@@ -30,16 +30,15 @@ export default function Stats360() {
                         </p>
                     </div>
                 </div>
-                <div className="flex flex-col xl:flex-row xl:items-center mt-5">
-                    <img src="./images/stats360/stats360_results.png" alt="Game over." className="w-full xl:h-80 rounded-lg shadow-lg"/>
-                    <div className="xl:flex xl:flex-col xl:ml-10">
-                        <h2 className="text-lg lg:text-2xl font-bold my-2">Development Tools:</h2>
+                <div className="flex flex-col xl:flex-row xl:items-center">
+                    <div className="xl:flex xl:flex-col xl:mr-10">
+                        <h2 className="text-lg lg:text-2xl font-bold mb-4 mt-2 lg:mt-0">Development Tools:</h2>
                         <p className="lg:text-lg">
-                            The development of this app involved a combination of modern web technologies and frameworks. 
-                            The frontend was built using React with TypeScript for type safety and Tailwind CSS for responsive, 
-                            utility-first styling. These tools allowed for a highly interactive and visually appealing user interface. 
-                            The backend was powered by Spring Boot, providing a robust and scalable server-side solution for handling user requests and managing data. 
-                            This project not only honed my skills in full-stack development but also deepened my understanding of RESTful APIs and asynchronous programming.
+                             The development of this app involved a combination of modern web technologies and frameworks. 
+                             The frontend was built using React with TypeScript for type safety and Tailwind CSS for responsive, 
+                             utility-first styling. These tools allowed for a highly interactive and visually appealing user interface. 
+                             The backend was powered by Spring Boot, providing a robust and scalable server-side solution for handling user requests and managing data. 
+                             This project not only honed my skills in full-stack development but also deepened my understanding of RESTful APIs and asynchronous programming.
                         </p>
                     </div>
                 </div>

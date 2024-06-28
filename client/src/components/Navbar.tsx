@@ -38,15 +38,6 @@ export default function Navbar() {
                 </div>
                 {isDropdownOpen && (
                     <div className="absolute flex flex-col lg:grid lg:grid-cols-2 gap-4 w-2/3 lg:w-1/3 max-h-80 overflow-auto mt-16 p-4 bg-white border border-gray-300 shadow-md rounded-lg z-10">
-                        <Link to="/rideshare" tabIndex={-1} className="w-full">
-                            <button 
-                                className="w-full h-full p-4 bg-gray-100 rounded-lg hover:bg-gray-200"
-                                onClick={() => {setCurrentPage("Projects"); setIsDropdownOpen(false)}}
-                            >
-                                <h3 className="font-medium">rideshare</h3>
-                                <p className="text-sm">An app that connects you and your friends for easy ridesharing to common ski destinations</p>
-                            </button>
-                        </Link>
                         <Link to="/stats360" tabIndex={-1} className="w-full">
                             <button 
                                 className="w-full h-full p-4 bg-gray-100 rounded-lg hover:bg-gray-200"
