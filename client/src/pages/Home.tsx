@@ -22,7 +22,7 @@ export default function Home() {
             <div className="bg-white w-5/6 p-4 rounded-xl shadow-lg mt-8 mb-24">
                 <h1 className="text-4xl font-bold mb-4">Work Experience</h1>
                 <div className="flex items-center border-2 border-black rounded-xl p-2">
-                    <img src="./images/uber_eats_logo.jpg" alt="Temple Beth-El Logo" className="work-logo"/>
+                    <img src="./images/work/uber_eats_logo.jpg" alt="Temple Beth-El Logo" className="work-logo"/>
                     <div>
                         <h2 className="text-2xl font-bold">Uber Eats</h2>
                         <h3 className="text-lg mb-1">Delivery Driver</h3>
@@ -35,7 +35,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex items-center border-2 border-black rounded-xl p-2 mt-3">
-                    <img src="./images/temple_beth_el.png" alt="Temple Beth-El Logo" className="work-logo"/>
+                    <img src="./images/work/temple_beth_el.png" alt="Temple Beth-El Logo" className="work-logo"/>
                     <div>
                         <h2 className="text-2xl font-bold">Temple Beth-El</h2>
                         <h3 className="text-lg mb-1">Assistant Teacher</h3>
@@ -51,7 +51,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="flex items-center border-2 border-black rounded-xl p-2 mt-3">
-                    <img src="./images/abc_kids_expo.png" alt="Temple Beth-El Logo" className="work-logo"/>
+                    <img src="./images/work/abc_kids_expo.png" alt="Temple Beth-El Logo" className="work-logo"/>
                     <div>
                         <h2 className="text-2xl font-bold">ABC Kids Expo</h2>
                         <h3 className="text-lg mb-1">Records Coordinator</h3>
