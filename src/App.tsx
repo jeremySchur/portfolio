@@ -6,7 +6,7 @@ import Pygame from "./pages/Pygame"
 import Stats360 from "./pages/Stats360"
 import Layout from "./Layout"
 
-const routerBaseName = process.env.PUBLIC_URL;
+const routerBaseName = "https://jeremySchur.github.io/portfolio/";
 
 export default function App() {
 
