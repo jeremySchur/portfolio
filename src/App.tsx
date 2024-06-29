@@ -6,10 +6,12 @@ import Pygame from "./pages/Pygame"
 import Stats360 from "./pages/Stats360"
 import Layout from "./Layout"
 
+const routerBaseName = process.env.PUBLIC_URL;
+
 export default function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={routerBaseName}>
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
