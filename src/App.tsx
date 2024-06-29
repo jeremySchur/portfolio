@@ -9,7 +9,7 @@ import Layout from "./Layout"
 export default function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio/">
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
