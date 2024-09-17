@@ -12,9 +12,14 @@ export default function Home() {
                         including frontend and backend development, database management, data science, artificial intelligence, 
                         and game development.
                     </p>
-                    <a href="./files/Jeremy_Resume.pdf" tabIndex={-1} download>
-                        <button className="download-btn">Download Resume</button>
-                    </a>
+                    <div className="mt-2">
+                        <a href="./files/Jeremy_Resume.pdf" tabIndex={-1} download>
+                            <button className="download-btn">Download Resume</button>
+                        </a>
+                        <a className="ml-3" href="./files/transcript.pdf" tabIndex={-1} download>
+                            <button className="download-btn mt-2">Download Transcript</button>
+                        </a>
+                    </div>
                 </div>
             </div>
             <br/>
