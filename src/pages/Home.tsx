@@ -31,7 +31,7 @@ export default function Home() {
                     <div>
                         <h2 className="text-2xl font-bold">Uber Eats</h2>
                         <h3 className="text-lg mb-1">Delivery Driver</h3>
-                        <p className="mb-1">May 2022 - August 2024 (Summers) | Boulder, Colorado</p>
+                        <p className="mb-1">May 2022 - Current | Boulder, Colorado</p>
                         <ul className="list-disc ml-5">
                             <li>Consistently delivered orders within the estimated time frame, demonstrating strong time management skills.</li>
                             <li>Effectively communicated with customers, restaurants, and support teams to ensure smooth delivery processes.</li>
