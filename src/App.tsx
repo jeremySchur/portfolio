@@ -12,14 +12,14 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<Layout />}>
+        {/* <Route element={<Layout />}> */}
           <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
+          {/* <Route path="/education" element={<Education />} />
           <Route path="/stats360" element={<Stats360 />} />
           <Route path="/pygame" element={<Pygame />} />
-          <Route path="/rideshare" element={<Rideshare />} />
+          <Route path="/rideshare" element={<Rideshare />} /> */}
           <Route path="*" element={<Navigate to="/" />} />
-        </Route>
+        {/* </Route> */}
       </Routes>
     </BrowserRouter>
   )
