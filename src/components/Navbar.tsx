@@ -14,25 +14,25 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
     return (
         <nav id="navbar" className="navbar text-white font-mont font-semibold">
             <button
-                className={`${activeSection === "Home" ? "text-red-500" : ""}`}
+                className={`hover:scale-95 focus:outline-none focus:scale-95 ${activeSection === "Home" ? "text-red-500" : ""}`}
                 onClick={() => handleButtonClick("Home")}
             >
                 Home
             </button>
             <button
-                className={`ml-8 ${activeSection === "About" ? "text-red-500" : ""}`}
+                className={`ml-8 hover:scale-95 focus:outline-none focus:scale-95 ${activeSection === "About" ? "text-red-500" : ""}`}
                 onClick={() => handleButtonClick("About")}
             >
                 About
             </button>
             <button
-                className={`ml-8 ${activeSection === "Projects" ? "text-red-500" : ""}`}
+                className={`ml-8 hover:scale-95 focus:outline-none focus:scale-95 ${activeSection === "Projects" ? "text-red-500" : ""}`}
                 onClick={() => handleButtonClick("Projects")}
             >
                 Projects
             </button>
             <button
-                className={`ml-8 lg:mr-10 ${activeSection === "Contact" ? "text-red-500" : ""}`}
+                className={`ml-8 lg:mr-10 hover:scale-95 focus:outline-none focus:scale-95 ${activeSection === "Contact" ? "text-red-500" : ""}`}
                 onClick={() => handleButtonClick("Contact")}
             >
                 Contact

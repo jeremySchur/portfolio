@@ -4,6 +4,7 @@ export default function About() {
 
     return (
         <div className="flex flex-col items-center text-white font-mont">
+            {/* About Header */}
             <h1 className="text-4xl lg:text-6xl font-bold mt-14 lg:mt-20">About</h1>
             <div className="red-rectangle bottom-3 left-6 lg:left-9 w-28 lg:w-44"></div>
 
@@ -17,7 +18,7 @@ export default function About() {
                         In my free time, I enjoy bouldering, gaming, and hanging out with friends.
                     </p>
                     <a href="./files/Jeremy_Resume.pdf" tabIndex={-1} download>
-                        <button className="mt-4 px-6 py-1 border-2 border-red-500 rounded-lg text-red-500 text-sm md:text-base lg:text-xl">
+                        <button className="mt-4 px-6 py-1 border-2 border-red-500 text-red-500 text-sm md:text-base lg:text-xl hover:scale-95 focus:outline-none focus:scale-95">
                             Download Resume
                         </button>
                     </a>
