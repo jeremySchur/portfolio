@@ -17,12 +17,12 @@ export default function Projects() {
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Rideshare</h2>
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Web Application</h2>
                     <p className="text-xs md:text-base lg:text-xl mt-1">
-                        Full stack carpool application built with React, Node.js, Express.js, PostgreSQL, Socket.io, and MongoDB.
+                        Full stack carpool application built with React.js, Mapbox, Node.js, Express.js, and MongoDB.
                     </p>
                     <div className="flex flex-col mr-auto mt-2 w-28 md:w-36 lg:w-44 relative">
                         <button 
                             className="text-xs md:text-base lg:text-xl font-bold button-transition2 before:left-0 focus:outline-none"
-                            onClick={() => window.open("https://github.com/nasirnaqvi/ride_share", "_blank")}
+                            onClick={() => window.open("https://github.com/jeremySchur/RideShare", "_blank")}
                         >
                             LEARN MORE
                         </button>
@@ -38,7 +38,7 @@ export default function Projects() {
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Stats360</h2>
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Web Application</h2>
                     <p className="text-xs md:text-base lg:text-xl mt-1">
-                        Full stack video game stats application built with React and Spring Boot.
+                        Full stack video game stats application built with React.js and Spring Boot.
                     </p>
                     <div className="flex flex-col mr-auto mt-2 w-28 md:w-36 lg:w-44 relative">
                         <button 
