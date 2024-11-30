@@ -11,18 +11,27 @@ export default function Projects() {
             {/* Projects */}
             <div className="mt-16 relative flex items-center">
                 <div className="flex flex-col justify-center bg-purp project_bg">
-                    <img src="./images/home.png" alt="Rideshare Home" className="project_image"/>
+                    <img src="./images/rideshare.png" alt="Rideshare Home" className="project_image"/>
                 </div>
                 <div className="absolute p-1 lg:p-2 project_text">
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Rideshare</h2>
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Web Application</h2>
                     <p className="text-xs md:text-base lg:text-xl mt-1">
-                        Full stack carpool application built with React, Node.js, Express.js, PostgreSQL, Socket.io, and MongoDB.
+                        Full stack carpool application built with React.js, Node.js, Express.js, MongoDB, and Mapbox.
+                        Containerized with Docker and deployed to AWS EC2. 
                     </p>
-                    <div className="flex flex-col mr-auto mt-2 w-28 md:w-36 lg:w-44 relative">
+                    <div className="flex flex-col mr-auto mt-3 w-28 md:w-36 lg:w-44 relative">
                         <button 
                             className="text-xs md:text-base lg:text-xl font-bold button-transition2 before:left-0 focus:outline-none"
-                            onClick={() => window.open("https://github.com/nasirnaqvi/ride_share", "_blank")}
+                            onClick={() => window.open("https://rideshare-jschur.com", "_blank")}
+                        >
+                            VISIT
+                        </button>
+                    </div>
+                    <div className="flex flex-col mr-auto mt-3 w-28 md:w-36 lg:w-44 relative">
+                        <button 
+                            className="text-xs md:text-base lg:text-xl font-bold button-transition2 before:left-0 focus:outline-none"
+                            onClick={() => window.open("https://github.com/jeremySchur/RideShare", "_blank")}
                         >
                             LEARN MORE
                         </button>
@@ -38,7 +47,7 @@ export default function Projects() {
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Stats360</h2>
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Web Application</h2>
                     <p className="text-xs md:text-base lg:text-xl mt-1">
-                        Full stack video game stats application built with React and Spring Boot.
+                        Full stack video game stats application built with React.js and Spring Boot.
                     </p>
                     <div className="flex flex-col mr-auto mt-2 w-28 md:w-36 lg:w-44 relative">
                         <button 
