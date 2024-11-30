@@ -13,9 +13,9 @@ export default function About() {
                 <div className="flex flex-col items-center mt-4 p-6 md:w-5/6">
                     <img src="./images/profile_picture.jpg" alt="Jeremy" className="profile_picture"/>
                     <p className="text-sm md:text-base lg:text-xl mt-4 text-center 2xl:w-2/3">
-                        I’m a full stack web developer with a deep passion for JavaScript, React, and the world of web development. 
-                        Recently, I graduated with a B.S. in Computer Science from the University of Colorado, Boulder, and I’m now looking for a full-time software engineering position. 
-                        In my free time, I enjoy bouldering, gaming, and hanging out with friends.
+                        I’m a computer science student graduating this coming Spring 2025, and I'm passionate about building software that solves real-world problems. 
+                        My journey has centered around exploring a wide range of technologies, but I’m most proficient with the MERN stack, 
+                        which I’ve used to develop applications that balance performance and usability.
                     </p>
                     <a href="./files/Jeremy_Resume.pdf" tabIndex={-1} download>
                         <button className="mt-4 px-6 py-1 border-2 border-red-500 text-red-500 text-sm md:text-base lg:text-xl hover:scale-95 focus:outline-none focus:scale-95">
