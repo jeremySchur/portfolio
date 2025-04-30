@@ -23,14 +23,6 @@ export default function Projects() {
                     <div className="flex flex-col mr-auto mt-3 w-28 md:w-36 lg:w-44 relative">
                         <button 
                             className="text-xs md:text-base lg:text-xl font-bold button-transition2 before:left-0 focus:outline-none"
-                            onClick={() => window.open("https://rideshare.jeremyschur.com/", "_blank")}
-                        >
-                            VISIT
-                        </button>
-                    </div>
-                    <div className="flex flex-col mr-auto mt-3 w-28 md:w-36 lg:w-44 relative">
-                        <button 
-                            className="text-xs md:text-base lg:text-xl font-bold button-transition2 before:left-0 focus:outline-none"
                             onClick={() => window.open("https://github.com/jeremySchur/RideShare", "_blank")}
                         >
                             LEARN MORE
