@@ -43,7 +43,7 @@ export default function Home() {
                 <Background home={true}>
                     <div className='flex flex-col justify-center items-center h-screen text-white font-mont'>
                         <h1 className='text-3xl md:text-4xl lg:text-6xl text-center'>Hello, I'm <span className='text-red-500'>Jeremy</span>.</h1>
-                        <h1 className='text-3xl md:text-4xl lg:text-6xl mt-1 text-center'>I'm a software developer.</h1>
+                        <h1 className='text-3xl md:text-4xl lg:text-6xl mt-1 text-center'>I'm a software enginner.</h1>
                         <button 
                             className='text-red-500 md:text-lg lg:text-2xl mt-4 px-6 lg:px-8 border-2 border-red-500 flex items-center h-10 lg:h-12 hover:scale-95 focus:outline-none focus:scale-95' 
                             onClick={scrollToNavbar}

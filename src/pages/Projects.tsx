@@ -15,7 +15,6 @@ export default function Projects() {
                 </div>
                 <div className="absolute p-1 lg:p-2 project_text">
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Rideshare</h2>
-                    <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Web Application</h2>
                     <p className="text-xs md:text-base lg:text-xl mt-1">
                         Full stack carpool application built with React.js, Node.js, Express.js, MongoDB, and Mapbox.
                         Containerized with Docker and deployed to AWS EC2. 
@@ -33,11 +32,10 @@ export default function Projects() {
 
             <div className="mt-16 relative flex items-center">
                 <div className="flex flex-col justify-center bg-purp project_bg ml-auto xl:mr-15p">
-                    <img src="./images/stats360.png" alt="Rideshare Home" className="project_image ml-auto"/>
+                    <img src="./images/stats360.png" alt="Stats360" className="project_image ml-auto"/>
                 </div>
                 <div className="absolute p-1 lg:p-2 project_text2">
                     <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Stats360</h2>
-                    <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Web Application</h2>
                     <p className="text-xs md:text-base lg:text-xl mt-1">
                         Full stack video game stats application built with React.js and Spring Boot.
                     </p>
@@ -54,18 +52,17 @@ export default function Projects() {
 
             <div className="mt-16 relative flex items-center">
                 <div className="flex flex-col justify-center bg-purp project_bg">
-                    <img src="./images/pygame.png" alt="Rideshare Home" className="project_image"/>
+                    <img src="./images/slack_channel_sentiments.png" alt="Slack Channel Sentiments" className="project_image"/>
                 </div>
                 <div className="absolute p-1 lg:p-2 project_text">
-                    <h2 className="text-sm md:text-xl lg:text-3xl font-bold">SnakeV2</h2>
-                    <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Python Pygame</h2>
+                    <h2 className="text-sm md:text-xl lg:text-3xl font-bold">Slack Channel Setiments</h2>
                     <p className="text-xs md:text-base lg:text-xl mt-1">
-                        A unique rework of the classic Snake game, enhanced with new twists and built with Python and Pygame.
+                        A containerized application built with React and FastAPI to get the sentiments of different channels in a slack workspace.
                     </p>
                     <div className="flex flex-col mr-auto mt-2 w-28 md:w-36 lg:w-44 relative">
                         <button 
                             className="text-xs md:text-base lg:text-xl font-bold button-transition2 before:left-0 focus:outline-none"
-                            onClick={() => window.open("https://github.com/jeremySchur/Pygame-Snake", "_blank")}
+                            onClick={() => window.open("https://github.com/jeremySchur/slack-channel-sentiments", "_blank")}
                         >
                             LEARN MORE
                         </button>

@@ -65,8 +65,8 @@ export default function About() {
                             <h2 className="skills_text">PYTHON</h2>
                         </div>
                         <div className="skills_item mb-6">
-                            <img src="./images/skills/rust.png" alt="Rust" className="skills_icon"/>
-                            <h2 className="skills_text">Rust</h2>
+                            <img src="./images/skills/java.png" alt="Java" className="skills_icon"/>
+                            <h2 className="skills_text">Java</h2>
                         </div>
                         <div className="skills_item">
                             <img src="./images/skills/nosql.png" alt="NoSQL" className="skills_icon"/>
